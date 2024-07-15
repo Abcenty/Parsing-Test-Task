@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-parser"
+version = "0.1.0"
+description = ""
+authors = ["Andrey Kazackov <AndreyKazackoB@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.27.0"
+asyncio = "^3.4.3"
+environs = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
